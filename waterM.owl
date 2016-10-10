@@ -1,0 +1,1576 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/fcalvier/ontologies/2016/5/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/fcalvier/ontologies/2016/5/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/fcalvier/ontologies/2016/5/untitled-ontology-7"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Photometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isResponsibleFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#compose"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LevelMeter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#waterSupply"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlowMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnvironmentSensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IntrusionAlert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PumpingGroup"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isComposedOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#litrePerHour"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isWaterSuppliedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlowAlert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemperatureUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MalfunctionAlert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConsumableRenewal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMaxValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectricDevice"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supply"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#altitude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#celsius"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PressureMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MeasureUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#lattitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaterDevice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AirSensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaterQualitySensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeviceBreakdownAlert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTarget"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndustrialClient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Controler"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEnergySuppliedBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fahrenheit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Replacement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OverConsumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectricPowerageSensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reservoir"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#solve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnergyUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#electricConsumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaterSensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Booster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alert"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#canAccess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intervention"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnvironmentAlert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Collectivity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#consumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VolumeUnit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#fuelConsumption"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSupliedBy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cubicMeterPerSecond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pipe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DomesticClient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaterTower"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turnsPerMinute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Incident"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectricDisruptAlert"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOrigin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OverflowSensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Device"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRealizedBy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMinValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Staff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaterThermometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Installation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaterAlert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NoiseUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PumpingStation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Flowmeter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PressureAlert"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#respondTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VolumeMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hygrometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FireHydrant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AirQualitySensor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#induce"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#rotationSpeed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cubicMeter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Claim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NoiseMeasure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#joule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PressureLimiter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PressureUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnSafeEnvironmentAlert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemperatureMeasure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Manometer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#energySupply"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaterShortage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turbidimeter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#watt"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#diameter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrivateSector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#concern"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlowLimiter"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#volume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FlowUnit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#litre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sonometer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#InstallationDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#longitude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pump"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thermometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataCenter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Measurement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isReportedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Valve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PresenceSensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pascal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaterMeasure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#geographicCoordinates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kelvin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LeakAlert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpeedUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#report"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElectricStateSensor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#metersPerSecond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accelerator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeviceThermometer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PublicSector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bladder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Client"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#decibel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StateSensor"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Accelerator"/>
+        <Class IRI="#PumpingGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AirQualitySensor"/>
+        <Class IRI="#AirSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AirSensor"/>
+        <Class IRI="#EnvironmentSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alert"/>
+        <Class IRI="#Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basin"/>
+        <Class IRI="#Reservoir"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bladder"/>
+        <Class IRI="#WaterDevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bladder"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Manometer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Booster"/>
+        <Class IRI="#PumpingGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Booster"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Bladder"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Claim"/>
+        <Class IRI="#Incident"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Claim"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isReportedBy"/>
+            <Class IRI="#Client"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Client"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#report"/>
+            <Class IRI="#Incident"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Collectivity"/>
+        <Class IRI="#Client"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConsumableRenewal"/>
+        <Class IRI="#Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Controler"/>
+        <Class IRI="#WaterDevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Controler"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Flowmeter"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Controler"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Manometer"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataCenter"/>
+        <Class IRI="#ElectricDevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataCenter"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#report"/>
+            <Class IRI="#Incident"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeviceBreakdownAlert"/>
+        <Class IRI="#MalfunctionAlert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeviceThermometer"/>
+        <Class IRI="#EnvironmentSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeviceThermometer"/>
+        <Class IRI="#Thermometer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DomesticClient"/>
+        <Class IRI="#Client"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricDevice"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricDisruptAlert"/>
+        <Class IRI="#MalfunctionAlert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricDisruptAlert"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#concern"/>
+            <Class IRI="#ElectricDevice"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricPowerageSensor"/>
+        <Class IRI="#StateSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElectricStateSensor"/>
+        <Class IRI="#StateSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnergyUnit"/>
+        <Class IRI="#MeasureUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnvironmentAlert"/>
+        <Class IRI="#Alert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnvironmentSensor"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fan"/>
+        <Class IRI="#ElectricDevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FireHydrant"/>
+        <Class IRI="#WaterDevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FireHydrant"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Valve"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FireHydrant"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Flowmeter"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FireHydrant"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Manometer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FireHydrant"/>
+        <ObjectExactCardinality cardinality="2">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#StateSensor"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowAlert"/>
+        <Class IRI="#WaterAlert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowLimiter"/>
+        <Class IRI="#Controler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowLimiter"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Flowmeter"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowMeasure"/>
+        <Class IRI="#WaterMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowMeasure"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasOrigin"/>
+            <Class IRI="#Flowmeter"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowMeasure"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasUnit"/>
+            <Class IRI="#FlowUnit"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowMeasure"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowMeasure"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FlowUnit"/>
+        <Class IRI="#MeasureUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Flowmeter"/>
+        <Class IRI="#WaterSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generator"/>
+        <Class IRI="#ElectricDevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generator"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Tank"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generator"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#AirQualitySensor"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generator"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#ElectricStateSensor"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generator"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Sonometer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generator"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Thermometer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hygrometer"/>
+        <Class IRI="#AirSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Incident"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#concern"/>
+            <Class IRI="#Device"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndustrialClient"/>
+        <Class IRI="#Client"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Installation"/>
+        <Class IRI="#Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IntrusionAlert"/>
+        <Class IRI="#EnvironmentAlert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LeakAlert"/>
+        <Class IRI="#Alert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LevelMeter"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MalfunctionAlert"/>
+        <Class IRI="#Alert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manager"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Manometer"/>
+        <Class IRI="#WaterSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measure"/>
+        <Class IRI="#Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measurement"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasUnit"/>
+            <Class IRI="#MeasureUnit"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Measurement"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meter"/>
+        <Class IRI="#WaterSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NoiseMeasure"/>
+        <Class IRI="#Measurement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NoiseMeasure"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#concern"/>
+            <Class IRI="#Sonometer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NoiseMeasure"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasUnit"/>
+            <Class IRI="#NoiseUnit"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NoiseUnit"/>
+        <Class IRI="#MeasureUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OverConsumption"/>
+        <Class IRI="#Claim"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OverflowSensor"/>
+        <Class IRI="#EnvironmentSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Photometer"/>
+        <Class IRI="#WaterQualitySensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pipe"/>
+        <Class IRI="#WaterDevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PresenceSensor"/>
+        <Class IRI="#EnvironmentSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PressureAlert"/>
+        <Class IRI="#WaterAlert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PressureLimiter"/>
+        <Class IRI="#Controler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PressureLimiter"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Flowmeter"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PressureMeasure"/>
+        <Class IRI="#WaterMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PressureMeasure"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasOrigin"/>
+            <Class IRI="#Manometer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PressureMeasure"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasUnit"/>
+            <Class IRI="#PressureUnit"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PressureMeasure"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PressureUnit"/>
+        <Class IRI="#MeasureUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrivateSector"/>
+        <Class IRI="#Sector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PublicSector"/>
+        <Class IRI="#Sector"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pump"/>
+        <Class IRI="#ElectricDevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pump"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#ElectricStateSensor"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pump"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Thermometer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PumpingGroup"/>
+        <Class IRI="#Controler"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PumpingGroup"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#PresenceSensor"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PumpingGroup"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#ElectricPowerageSensor"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PumpingGroup"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Sonometer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PumpingGroup"/>
+        <ObjectExactCardinality cardinality="2">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Flowmeter"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PumpingGroup"/>
+        <ObjectExactCardinality cardinality="3">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Thermometer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PumpingStation"/>
+        <Class IRI="#PumpingGroup"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PumpingStation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Reservoir"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Replacement"/>
+        <Class IRI="#Intervention"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reservoir"/>
+        <Class IRI="#WaterDevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reservoir"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Flowmeter"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reservoir"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#ElectricPowerageSensor"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reservoir"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Hygrometer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reservoir"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Manometer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reservoir"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#OverflowSensor"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reservoir"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Photometer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reservoir"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#PresenceSensor"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reservoir"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Turbidimeter"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reservoir"/>
+        <ObjectExactCardinality cardinality="2">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Thermometer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sector"/>
+        <Class IRI="#WaterDevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sector"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Pipe"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sector"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Meter"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sector"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#Valve"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <Class IRI="#ElectricDevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sonometer"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpeedUnit"/>
+        <Class IRI="#MeasureUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Staff"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#report"/>
+            <Class IRI="#Incident"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StateSensor"/>
+        <Class IRI="#EnvironmentSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tank"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tank"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#LevelMeter"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemperatureMeasure"/>
+        <Class IRI="#Measurement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemperatureMeasure"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasOrigin"/>
+            <Class IRI="#Thermometer"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemperatureMeasure"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasUnit"/>
+            <Class IRI="#TemperatureUnit"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemperatureMeasure"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemperatureUnit"/>
+        <Class IRI="#MeasureUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Thermometer"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Turbidimeter"/>
+        <Class IRI="#WaterQualitySensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnSafeEnvironmentAlert"/>
+        <Class IRI="#EnvironmentAlert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Valve"/>
+        <Class IRI="#WaterDevice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Valve"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="#StateSensor"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VolumeMeasure"/>
+        <Class IRI="#WaterMeasure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VolumeMeasure"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasOrigin"/>
+            <Class IRI="#Meter"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VolumeMeasure"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#hasUnit"/>
+            <Class IRI="#VolumeUnit"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VolumeMeasure"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#hasValue"/>
+            <Datatype abbreviatedIRI="xsd:float"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VolumeUnit"/>
+        <Class IRI="#MeasureUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterAlert"/>
+        <Class IRI="#Alert"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterAlert"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#concern"/>
+            <Class IRI="#WaterDevice"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterDevice"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterMeasure"/>
+        <Class IRI="#Measurement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterQualitySensor"/>
+        <Class IRI="#WaterSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterSensor"/>
+        <Class IRI="#Sensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterShortage"/>
+        <Class IRI="#Claim"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterThermometer"/>
+        <Class IRI="#Thermometer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterThermometer"/>
+        <Class IRI="#WaterSensor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterTower"/>
+        <Class IRI="#Reservoir"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#PressureUnit"/>
+        <NamedIndividual IRI="#bar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TemperatureUnit"/>
+        <NamedIndividual IRI="#celsius"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VolumeUnit"/>
+        <NamedIndividual IRI="#cubicMeter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FlowUnit"/>
+        <NamedIndividual IRI="#cubicMeterPerSecond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NoiseUnit"/>
+        <NamedIndividual IRI="#decibel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TemperatureUnit"/>
+        <NamedIndividual IRI="#fahrenheit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EnergyUnit"/>
+        <NamedIndividual IRI="#joule"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TemperatureUnit"/>
+        <NamedIndividual IRI="#kelvin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VolumeUnit"/>
+        <NamedIndividual IRI="#litre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FlowUnit"/>
+        <NamedIndividual IRI="#litrePerHour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SpeedUnit"/>
+        <NamedIndividual IRI="#metersPerSecond"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PressureUnit"/>
+        <NamedIndividual IRI="#pascal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SpeedUnit"/>
+        <NamedIndividual IRI="#turnsPerMinute"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#EnergyUnit"/>
+        <NamedIndividual IRI="#watt"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#energySupply"/>
+        <ObjectProperty IRI="#supply"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTarget"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isEnergySuppliedBy"/>
+        <ObjectProperty IRI="#isSupliedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isWaterSuppliedBy"/>
+        <ObjectProperty IRI="#isSupliedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#waterSupply"/>
+        <ObjectProperty IRI="#supply"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#compose"/>
+        <ObjectProperty IRI="#isComposedOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#energySupply"/>
+        <ObjectProperty IRI="#isEnergySuppliedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#induce"/>
+        <ObjectProperty IRI="#solve"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isRealizedBy"/>
+        <ObjectProperty IRI="#realize"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isReportedBy"/>
+        <ObjectProperty IRI="#report"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isSupliedBy"/>
+        <ObjectProperty IRI="#supply"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isWaterSuppliedBy"/>
+        <ObjectProperty IRI="#waterSupply"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isReportedBy"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#report"/>
+    </InverseFunctionalObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#compose"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#isComposedOf"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#compose"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isComposedOf"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#waterSupply"/>
+    </TransitiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#compose"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasOrigin"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isComposedOf"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#report"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#supply"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#waterSupply"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#canAccess"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#compose"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#concern"/>
+        <Class IRI="#Incident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#energySupply"/>
+        <Class IRI="#Generator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <Class IRI="#Measurement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTarget"/>
+        <Class IRI="#Measurement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUnit"/>
+        <Class IRI="#Measurement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#induce"/>
+        <Class IRI="#Incident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isEnergySuppliedBy"/>
+        <Class IRI="#Generator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRealizedBy"/>
+        <Class IRI="#Intervention"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isReportedBy"/>
+        <Class IRI="#Incident"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isResponsibleFor"/>
+        <Class IRI="#Manager"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isWaterSuppliedBy"/>
+        <Class IRI="#WaterDevice"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realize"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#respondTo"/>
+        <Class IRI="#Intervention"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#solve"/>
+        <Class IRI="#Intervention"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#waterSupply"/>
+        <Class IRI="#WaterDevice"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#canAccess"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#compose"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#concern"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#energySupply"/>
+        <Class IRI="#ElectricDevice"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOrigin"/>
+        <Class IRI="#Sensor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTarget"/>
+        <Class IRI="#DataCenter"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#induce"/>
+        <Class IRI="#Intervention"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isEnergySuppliedBy"/>
+        <Class IRI="#Generator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRealizedBy"/>
+        <Class IRI="#Staff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isResponsibleFor"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isWaterSuppliedBy"/>
+        <Class IRI="#WaterDevice"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#realize"/>
+        <Class IRI="#Intervention"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#report"/>
+        <Class IRI="#Incident"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#respondTo"/>
+        <Class IRI="#Incident"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#solve"/>
+        <Class IRI="#Incident"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#waterSupply"/>
+        <Class IRI="#WaterDevice"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#altitude"/>
+        <DataProperty IRI="#geographicCoordinates"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#electricConsumption"/>
+        <DataProperty IRI="#consumption"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#fuelConsumption"/>
+        <DataProperty IRI="#consumption"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#lattitude"/>
+        <DataProperty IRI="#geographicCoordinates"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#longitude"/>
+        <DataProperty IRI="#geographicCoordinates"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#InstallationDate"/>
+        <Class IRI="#Device"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#consumption"/>
+        <Class IRI="#Device"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#diameter"/>
+        <Class IRI="#WaterDevice"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#electricConsumption"/>
+        <Class IRI="#ElectricDevice"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#fuelConsumption"/>
+        <Class IRI="#Generator"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#geographicCoordinates"/>
+        <Class IRI="#Device"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDate"/>
+        <Class IRI="#Measurement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMaxValue"/>
+        <Class IRI="#Sensor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMinValue"/>
+        <Class IRI="#Sensor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasValue"/>
+        <Class IRI="#Measurement"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rotationSpeed"/>
+        <Class IRI="#Fan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#rotationSpeed"/>
+        <Class IRI="#Pump"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#volume"/>
+        <Class IRI="#Tank"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#InstallationDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#consumption"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#diameter"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMaxValue"/>
+        <Datatype abbreviatedIRI="owl:real"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMinValue"/>
+        <Datatype abbreviatedIRI="owl:real"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasValue"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#rotationSpeed"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
